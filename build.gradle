@@ -1,0 +1,5 @@
+//apply from: 'PowerfulScrollView/build.gradle'
+
+buildscript{
+    apply from:'https://raw.githubusercontent.com/lsjwzh/widget.gradle/master/build.gradle'
+}
