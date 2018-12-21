@@ -2,7 +2,8 @@ apply from: 'https://raw.githubusercontent.com/lsjwzh/widget.gradle/master/lib.g
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(path: ':..:widget.powerfulscrollview')
+    implementation 'com.github.lsjwzh:PowerfulScrollView:1.2.0.33'
+//    compile project(path: ':..:widget.powerfulscrollview')
 }
 //apply from: 'https://raw.githubusercontent.com/lsjwzh/widget.gradle/master/upload.gradle'
 
