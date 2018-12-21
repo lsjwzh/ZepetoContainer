@@ -5,19 +5,17 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.lsjwzh.widget.multirvcontainer.MultiRVScrollView;
-import com.lsjwzh.widget.multirvcontainer.NestRecyclerViewHelper;
-import com.lsjwzh.widget.multirvcontainer.ScrollBlock;
-import com.support.android.designlibdemo.R;
+import com.lsjwzh.widget.instacontainer.R;
+import com.lsjwzh.widget.powerfulscrollview.NestRecyclerViewHelper;
+import com.lsjwzh.widget.powerfulscrollview.PowerfulScrollView;
 
 /**
  * 向上滑动时,首先滚动
  */
-public class ZepetoContainer extends MultiRVScrollView {
+public class ZepetoContainer extends PowerfulScrollView {
   private static final String TAG = ZepetoContainer.class.getSimpleName();
   protected ObjectAnimator mScrollAnimation;
   protected int headerMinHeight;

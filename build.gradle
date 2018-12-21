@@ -3,3 +3,11 @@
 buildscript{
     apply from:'https://raw.githubusercontent.com/lsjwzh/widget.gradle/master/build.gradle'
 }
+
+allprojects {
+    repositories {
+        maven { url 'https://maven.google.com' }
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}

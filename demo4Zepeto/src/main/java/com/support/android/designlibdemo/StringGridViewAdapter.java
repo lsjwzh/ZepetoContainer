@@ -68,7 +68,7 @@ public class StringGridViewAdapter
       @Override
       public void onClick(View v) {
         Context context = v.getContext();
-        Intent intent = new Intent(context, DemoDetailActivity.class);
+        Intent intent = new Intent(context, ZepetoDemoActivity.class);
 //        intent.putExtra(DemoDetailActivity.EXTRA_NAME, holder.mBoundString);
 
         context.startActivity(intent);

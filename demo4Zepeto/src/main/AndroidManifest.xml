@@ -82,14 +82,6 @@
       </intent-filter>
     </activity>
 
-    <activity
-      android:name=".DemoDetailActivity"
-      android:parentActivityName=".MainActivity"
-      android:resizeableActivity="false">
-      <meta-data
-        android:name="android.support.PARENT_ACTIVITY"
-        android:value=".MainActivity"/>
-    </activity>
     <activity android:name=".ZepetoDemoActivity"/>
 
 

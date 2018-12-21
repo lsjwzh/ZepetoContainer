@@ -1,2 +1,2 @@
-include ':demo4Zepeto', ':widget.zepotocontainer',
-        ':PowerfulScrollView:widget.multirvcontainer'
+include ':demo4Zepeto', ':widget.zepetocontainer',
+        ':..:widget.powerfulscrollview'
